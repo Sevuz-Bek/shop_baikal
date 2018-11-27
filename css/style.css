@@ -200,7 +200,6 @@ div.btn {
     border-radius: .33vw;
     padding: .66vw 1.32vw; 
     overflow: hidden;
-    cursor: pointer;
 }
 #sign {
     border: 1px solid #ededed;
@@ -212,4 +211,54 @@ div.btn {
     height: 1.33vmax;
     fill: #7e7e7e;
     margin-right: 1.83vmax;
+}
+#sign:hover {
+    background-color: #ededed;
+    color: #2e2e30;
+}
+#location,
+#currency {
+    font-family: 'PT serif';
+    margin-left: 5.25vmax;
+    color: #aaa;
+}
+#location span,
+#currency span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 1.66vmax;
+    font-size: .83vmax;
+}
+#logo, #logo a {
+    display: block;
+    height: 3.33vmax;
+    width: 11.33vmax;
+    text-decoration: none;
+}
+#logo svg {
+    width: inherit;
+    height: inherit;
+}
+#currency {
+    margin-right: 6.33vmax;
+    margin-left: 0;
+}
+#cart {
+    border: 1px solid #86ce8e;
+    font-size: .83vmax;
+    color: #86ce8e;
+}
+#cart svg {
+    width: 1.25vmax;
+    height: 1.16vmax;
+    margin-right: 1.5vmax;
+    fill: rgb(134, 206, 142);
+}
+#cart:hover {
+    background-color: #86ce8e;
+    color: #fff;
+}
+#cart:hover svg {
+    fill: #fff;
 }
