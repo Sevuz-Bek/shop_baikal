@@ -198,9 +198,13 @@ body {
     height: inherit;
 }
 div.btn {
-    border-radius: .33vw;
     padding: .66vw 1.32vw; 
     overflow: hidden;
+    border-radius: .33vw;
+}
+.box {
+    border-radius: .33vw;
+    background-color: #fff;
 }
 #sign {
     border: 1px solid #ededed;
@@ -303,4 +307,46 @@ nav a {
     cursor: pointer;
     right: 0;
     top: calc(50% - .75vmax);
+}
+#banner {
+    width: 100%;
+    height: 16.66vmax;
+    overflow: hidden;
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(215,232,236) 0%, rgb(194,209,209) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(215,232,236) 0%, rgb(194,209,209) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(215,232,236) 0%, rgb(194,209,209) 100%);
+    text-align: center;
+}
+#banner img {
+    min-width: 100%;
+    min-height: 100%;
+}
+                          /*main*/
+main {
+    padding-top: 4.16vmax;
+    padding-bottom: 6.66vmax;
+}
+#left_bar {
+    width: 19.16vw;
+}
+#right_bar {
+    width: 60.83vw;
+}
+#load_more {
+    border: none;
+    border-radius: .33vw;
+    width: 100%;
+    color: #fff;
+    background-color: #b8c6c7;
+    font-size: 1.25vmax;
+    padding-top: 1.66vmax;
+    padding-bottom: 1.66vmax;
+    margin-top: 1.66vmax;
+}
+#load_more:hover {
+    transform: scale(.95);
+}
+.product {
+    flex-flow: column nowrap;
+    text-decoration: none;
 }
