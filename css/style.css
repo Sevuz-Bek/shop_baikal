@@ -172,7 +172,7 @@ a, a:hover, button, button:hover, .anime {
 body {
     background-color: #eaeaea;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.17vmax;
+    font-size: 1.14vmax;
     line-height: 1.33vmax;
 }
 .wrap {
@@ -197,5 +197,19 @@ body {
     height: inherit;
 }
 div.btn {
-    
+    border-radius: .33vw;
+    padding: .66vw 1.32vw; 
+    overflow: hidden;
+    cursor: pointer;
+}
+#sign {
+    border: 1px solid #ededed;
+    color: #fff;
+    font-size: .83vmax;
+}
+#sign svg {
+    width: 1.33vmax;
+    height: 1.33vmax;
+    fill: #7e7e7e;
+    margin-right: 1.83vmax;
 }
