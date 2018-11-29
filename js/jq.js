@@ -12,7 +12,7 @@ $(function(){
         min: 0,
         range: true,
         values: [ 190, 728 ],
-        slider: function( event, ui ) {
+        slide: function( event, ui ) {
             $('input[name="minPrice"]').val( '$' + ui.values[0] );
             $('input[name="maxPrice"]').val( '$' + ui.values[1] );
         }
@@ -24,4 +24,4 @@ $(function(){
     $('#slider_price').slider('values',1));
 
 
-});
+}); 
