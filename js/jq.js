@@ -36,4 +36,16 @@ $(function(){
         $('#modal').toggleClass('open');
     });
 
+    $('#search_btn').click(function () {
+        $('#search_panel').toggleClass('open');
+    });
+
+    $('#load_more').click(function (event) {
+        event.preventDefault();
+        $('.list_product').append('<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center"><div class="img_product"><div class="tag box">new</div><img src="img/01.png" alt=""></div><h2>Our Legacy Splash Jacquard Knit</h2><p>Black Grey Plants</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center"><div class="img_product"><div class="tag box">new</div><img src="img/01.png" alt=""></div><h2>Our Legacy Splash Jacquard Knit</h2><p>Black Grey Plants</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center"><div class="img_product"><div class="tag box">new</div><img src="img/01.png" alt=""></div><h2>Our Legacy Splash Jacquard Knit</h2><p>Black Grey Plants</p><p class="price">$290</p></a>');
+    });
+
+
+
+
 }); 
