@@ -692,3 +692,31 @@ footer {
 #search_panel.open {
     display: block;
 }
+
+@media
+only screen and ( min-device-width: 320px ) and
+( max-device-width: 480px ),
+only screen and ( max-width: 320px ),
+only screen and ( min-device-width: 768px ) and
+( max-device-width: 1024px )
+
+{
+
+    header {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    #top {
+        height: 20vmax;
+    }
+    #logo, #logo a {
+        display: block;
+        height: 6vmax;
+        width: 20vmax;
+    }
+
+
+
+
+}
